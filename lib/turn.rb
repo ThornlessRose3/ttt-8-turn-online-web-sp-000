@@ -33,3 +33,7 @@ def position_taken?(b, i)
     return TRUE
   end
 end
+
+def turn(board)
+  puts "Please enter 1-9:"
+end

@@ -40,6 +40,7 @@ def turn(board)
   input_to_index(input)
   if valid_move?(board, index)
     move(board,index)
+    display_board(board)
   else
     puts "nope"
   end
